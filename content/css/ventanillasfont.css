@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "ventanillasiconfont";
+  src:url("../fonts/ventanillasiconfont.eot");
+  src:url("../fonts/ventanillasiconfont.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/ventanillasiconfont.woff") format("woff"),
+    url("../fonts/ventanillasiconfont.ttf") format("truetype"),
+    url("../fonts/ventanillasiconfont.svg#ventanillasiconfont") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "ventanillasiconfont" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "ventanillasiconfont" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-lupa:before {
+  content: "a";
+}
+.icon-direccion:before {
+  content: "b";
+}
+.icon-familia:before {
+  content: "c";
+}
+.icon-email:before {
+  content: "d";
+}
+.icon-icono-direccion:before {
+  content: "e";
+}
+.icon-icono-informacion:before {
+  content: "f";
+}
+.icon-icono-srervicios-salud:before {
+  content: "g";
+}
+.icon-mapa-puntos:before {
+  content: "h";
+}
+.icon-mas-informacion:before {
+  content: "i";
+}
+.icon-pin:before {
+  content: "j";
+}
+.icon-telefono:before {
+  content: "k";
+}
+.icon-vineta:before {
+  content: "l";
+}
+.icon-website:before {
+  content: "m";
+}
