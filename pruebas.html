@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+
+<head>
+	<style>
+		body{
+			background: gray;
+		}
+		.shortcut {
+			max-width: 1300px;
+			margin-left: 0;
+			margin-right: 0;
+			margin-top: 33px;
+		}
+		
+		.access {
+			box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
+			display: inline-block;
+			margin-right: 4%;
+			margin-top: 30px;
+			min-height: 340px;
+			position: relative;
+			vertical-align: top;
+			min-width: 250px;
+			max-width: 350px;
+		}
+		
+		.access > a {
+			display: block;
+		
+			position: absolute;
+			text-decoration: none;
+			width: 100%;
+			bottom: 0
+		}
+		
+			.access:nth-child(odd) > a span:first-child,
+		.access:nth-child(even) > a span:first-child {
+			 
+			box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
+			background: #fff;
+			color: #424242; 
+			width: 30px;
+			height: 25px;
+				float: right;
+				padding-top: 5px;
+		}
+		.access > a span:nth-child(2){
+			visibility: hidden;
+			display: inline-block !important;
+		}
+		.access > a span:nth-child(1){
+			font-size: 1.5em;
+		 
+		}
+		
+			.access > a span:first-child:hover > span { 
+ visibility: visible;
+ line-height: 5px;
+}
+			.access > a span:first-child:hover > i { 
+ visibility: hidden;
+}
+		.access > a span:first-child:hover  { 
+   color: #CE2B06;
+	width: 60%;
+	height: 30px;
+}
+		
+		
+		.access > div {
+			display: block;
+			position: absolute;
+			text-decoration: none;
+			top: -50px;
+			width: 100%;
+		}
+		
+		.access > div span:first-child::before {
+			left: -19px;
+		}
+		
+		.access > div span:first-child::before,
+		.access > div span:first-child::after {
+			background: #eeeff1 none repeat scroll 0 0;
+			content: "";
+			height: 5px;
+			position: absolute;
+			top: 54px;
+		}
+		
+		.access > div span:first-child::after {
+			right: -19px;
+		}
+		
+		.access:nth-child(odd) > div span:first-child,
+		.access:nth-child(even) > div span:first-child {
+			border: 1px solid #fff;
+			box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
+			background: #fff;
+			color: #21A4D7;
+			border-radius: 50%;
+			width: 85px;
+			height: 85px;
+		}
+		
+		.access > div span:first-child {
+			background: #eeeff1 none repeat scroll 0 0;
+			margin: 0 auto;
+			position: relative;
+			width: 112px;
+		}
+		
+		.access span {
+			display: block;
+			font-size: 16px;
+			line-height: 23px;
+			text-align: center;
+		}
+		
+		.access > div span:first-child i {
+			display: block;
+			font-size: 45px;
+			padding: 40px 12px;
+		}
+		
+		.access > div span:last-child {
+			color: #241d51;
+			display: block;
+			font-size: 20px;
+			line-height: 28px;
+			padding: 16px 24px;
+			text-align: center;
+		}
+		
+		.access span.description {
+			padding: 140px 10px 20px;
+		}
+	</style>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="content/css/ventanillasfont.css" />
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" / </head>
+
+	<body>
+
+		<div class="shortcut">
+
+			<div class="access">
+				<div>
+					<span>
+                        <i class="icon " data-icon="f"></i>
+                    </span>
+					<span>
+                        Escuela de Salud Pública de México
+                    </span>
+				</div>
+				<span class="description">
+                    Forma recursos humanos de alto nivel en el campo de la salud pública y la investigación a través de programas académicos pertinentes, sólidos, innovadores y actualizados.
+                </span>
+				<a>
+					<span> 
+						<i class="icon " data-icon="i"></i>
+						<span>Más informacion</span>
+					</span> 
+
+				</a>
+			</div>
+
+	</body>
