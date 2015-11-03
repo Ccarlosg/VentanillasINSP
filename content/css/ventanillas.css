@@ -181,7 +181,7 @@ header .barra {
     height: 150px;
 }
 
-.roja {
+.gris {
     background: #3e3e3e;
 }
 
@@ -205,6 +205,11 @@ header .barra {
     height: 100%;
 }
 
+.box-note .note {
+    width: 60%;
+    float: right;
+    height: 100%;
+}
 
 .box-note h2 {
     font-size: 1.5em !important;
@@ -215,6 +220,24 @@ header .barra {
     font-size: 12px;
     color: #fff;
     font-weight: bold;
+}
+
+.box-note > div:first-child{
+     float: left;
+      min-height: 150px;
+      width: 27%;
+      margin-left:10%;
+      
+}
+
+.imgIS{
+     background: url(../img/familia.png) no-repeat;
+}
+.imgMex{
+     background: url(../img/mapa_estadosunidos.png) no-repeat;
+}
+.imgEU{
+     background: url(../img/mapa_mexico.png) no-repeat;
 }
 
 .content2 {
@@ -242,6 +265,12 @@ header .barra {
         padding: 15px;
     }
 
+.welcome .vineta{
+    background:url(../img/vineta.png);
+     width: 184px;
+     height: 19px;
+     margin:  0 auto;
+}
 
 .shortcut {
     max-width: 1220px;
@@ -256,15 +285,35 @@ header .barra {
     display: inline-block;
     margin-right: 4%;
     margin-top: 30px;
-    min-height: 340px;
+    min-height: 264px;
     position: relative;
     vertical-align: top;
     min-width: 250px;
-    max-width: 350px;
-     background-color:  rgba(47,60,75,0.5); 
+    max-width: 350px;  
+    
 }
 
-    .access > div {
+.access.img1{
+     background: url(../img/foto1.jpg) ;   
+}
+
+.access.img2{
+     background: url(../img/foto2.jpg) ;   
+}
+
+.access.img3{
+     background: url(../img/foto3.jpg) ;   
+}
+
+
+.content {
+    
+   background:  rgba(34, 43, 52, 0.5);
+   width: 100%;
+    min-height: 264px;
+}
+
+  .access .content > div {
         display: block;
         position: absolute;
         text-decoration: none;
@@ -272,23 +321,23 @@ header .barra {
         width: 100%;
     }
 
-        .access > div span:first-child::before {
+        .access .content > div span:first-child::before {
             left: -19px;
         }
 
-        .access > div span:first-child::before, .access > div span:first-child::after {
-            background: #eeeff1 none repeat scroll 0 0;
+        .access  .content > div span:first-child::before, .access > div span:first-child::after {
+            background: #FFFFFF none repeat scroll 0 0;
             content: "";
             height: 5px;
             position: absolute;
             top: 54px;
         }
 
-        .access > div span:first-child::after {
+        .access .content > div span:first-child::after {
             right: -19px;
         }
 
-    .access:nth-child(odd) > div span:first-child, .access:nth-child(even) > div span:first-child {
+    .access .content:nth-child(odd) > div span:first-child, .access .content:nth-child(even) > div span:first-child {
         border: 1px solid #fff;
         box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
         background: #fff;
@@ -298,27 +347,27 @@ header .barra {
         height: 85px;
     }
 
-    .access > div span:first-child {
+    .access .content > div span:first-child {
         background: #eeeff1 none repeat scroll 0 0;
         margin: 0 auto;
         position: relative;
         width: 112px;
     }
 
-    .access span {
+    .access .content span {
         display: block;
         font-size: 16px;
         line-height: 23px;
         text-align: center;
     }
 
-    .access > div span:first-child i {
+    .access .content > div span:first-child i {
         display: block;
         font-size: 45px;
         padding: 40px 12px;
     }
 
-    .access > div span:last-child {
+    .access .content > div span:last-child {
         color: #E0E0E0;
         display: block;
         font-size: 20px;
@@ -327,12 +376,14 @@ header .barra {
         text-align: center;
     }
 
-    .access span.description {
+    .access .content span.description {
         padding: 140px 10px 20px;
         color: #fff;
+        font-size: 9pt;
+         text-align: justify;
     }
 
-    .access > a {
+    .access .content > a {
         display: block;
         position: absolute;
         text-decoration: none;
@@ -340,8 +391,8 @@ header .barra {
         bottom: 0;
     }
 
-    .access:nth-child(odd) > a span:first-child,
-    .access:nth-child(even) > a span:first-child {
+    .access .content:nth-child(odd) > a span:first-child,
+    .access .content:nth-child(even) > a span:first-child {
         box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
         background: #fff;
         color: #424242;
@@ -351,25 +402,25 @@ header .barra {
         padding-top: 5px;
     }
 
-    .access > a span:nth-child(2) {
+    .access .content > a span:nth-child(2) {
         visibility: hidden;
         display: inline-block !important;
     }
 
-    .access > a span:nth-child(1) {
+    .access .content > a span:nth-child(1) {
         font-size: 1.5em;
     }
 
-    .access > a span:first-child:hover > span {
+    .access .content > a span:first-child:hover > span {
         visibility: visible;
         line-height: 5px;
     }
 
-    .access > a span:first-child:hover > i {
+    .access .content > a span:first-child:hover > i {
         visibility: hidden;
     }
 
-    .access > a span:first-child:hover {
+    .access .content> a span:first-child:hover {
         color: #CE2B06;
         width: 60%;
         height: 30px;
