@@ -1,5 +1,5 @@
 
-@import url(https://fonts.googleapis.com/css?family=Merriweather);
+
 body {
     height: 100%;
     /* The html and body elements cannot have any padding or margin. */
@@ -106,9 +106,9 @@ header .barra {
         .lenguage .ingles, .lenguage .espanol {
             min-width: 40px;
         }
-        
-          .welcome h2 { 
-         width: 90% !important; 
+
+    .welcome h2 {
+        width: 90% !important;
     }
 }
 
@@ -168,18 +168,16 @@ header .barra {
         .banners a {
             margin: 15px 0 !important;
         }
-        
-          .welcome h2 { 
-         width: 60% !important; 
+
+    .welcome h2 {
+        width: 60% !important;
     }
 
 
-.box-note > div:first-child{ 
-      margin-left:0 !important;
-      width: 37% !important;
-      
-}
-
+    .box-note > div:first-child {
+        margin-left: 0 !important;
+        width: 37% !important;
+    }
 }
 
 @media (min-width: 768px) {
@@ -230,68 +228,46 @@ header .barra {
     color: #E6E6E6;
 }
 
-.box-note > div:first-child{
-     float: left;
-      min-height: 180px;
-      width: 27%;
-      margin-left:10%;
-}
-.box-note .note > a   {
-   text-decoration: none;
+.box-note > div:first-child {
+    float: left;
+    min-height: 180px;
+    width: 27%;
+    margin-left: 10%;
 }
 
-.box-note .note > a p:nth-child(1) {
-    font-size: 12px;
-    color: #fff;
-    font-weight: bold;
+.box-note .note > a {
+    text-decoration: none;
 }
 
-.box-note .note > a span:nth-child(2) {
-    font-size: 12px;
-    color: #fff;
-    font-weight: bold;
-    border: 2px  solid #fff;
-    padding: 5px;  
-    position: absolute;
-    display: block;
-    bottom: 15px;
-    margin-left: 13%;
-    
+    .box-note .note > a p:nth-child(1) {
+        font-size: 12px;
+        color: #fff;
+        font-weight: bold;
+    }
+
+    .box-note .note > a span:nth-child(2) {
+        font-size: 12px;
+        color: #fff;
+        font-weight: bold;
+        border: 2px solid #fff;
+        padding: 5px;
+        position: absolute;
+        display: block;
+        bottom: 15px;
+        margin-left: 13%;
+    }
+
+
+.imgIS {
+    background: url(../img/familia.png) no-repeat;
 }
- .eslogan{  
-     bottom: 35%;
-     position: absolute;
-      margin: 0 auto;
-      left: 30%;
-      text-align: center;
-      width: 35%;
-      font-family: 'Merriweather', serif !important;
-      color: #fff;
-     
- }
- 
-  .eslogan > span:nth-child(1){
-      font-size: 1.7em; 
-      display: table;
-       margin: 0 auto;
-       font-style:  italic;
-  }
- 
-   .eslogan> span:nth-child(2){
-      font-size: 1em; 
-       border-bottom:  1px solid #CA4526;
-           display: table;
-            margin: 0 auto;
-  }
- 
-.imgIS{
-     background: url(../img/familia.png) no-repeat;
+
+.imgMex {
+    background: url(../img/mapa_estadosunidos.png) no-repeat;
 }
-.imgMex{
-     background: url(../img/mapa_estadosunidos.png) no-repeat;
-}
-.imgEU{
-     background: url(../img/mapa_mexico.png) no-repeat;
+
+.imgEU {
+    background: url(../img/mapa_mexico.png) no-repeat;
 }
 
 .content2 {
@@ -309,7 +285,7 @@ header .barra {
     .welcome h2 {
         color: #21A4D7;
         text-align: center;
-         width: 30%;
+        width: 30%;
         margin: 35px auto;
         font-style: italic;
     }
@@ -319,19 +295,19 @@ header .barra {
         font-size: 1.3em;
         padding: 15px;
     }
-    
-     .welcome > p:nth-child(4) {
+
+    .welcome > p:nth-child(4) {
         text-align: center;
         font-size: 1.2em;
         padding: 15px;
     }
 
-.welcome .vineta{
-    background:url(../img/vineta.png);
-     width: 184px;
-     height: 19px;
-     margin:  0 auto;
-}
+    .welcome .vineta {
+        background: url(../img/vineta.png);
+        width: 184px;
+        height: 19px;
+        margin: 0 auto;
+    }
 
 .shortcut {
     max-width: 1220px;
@@ -350,142 +326,140 @@ header .barra {
     position: relative;
     vertical-align: top;
     min-width: 250px;
-    max-width: 350px;  
-    
+    max-width: 350px;
 }
 
-.access.img1{
-     background: url(../img/foto1.jpg) ;   
-}
+    .access.img1 {
+        background: url(../img/foto1.jpg);
+    }
 
-.access.img2{
-     background: url(../img/foto2.jpg) ;   
-}
+    .access.img2 {
+        background: url(../img/foto2.jpg);
+    }
 
-.access.img3{
-     background: url(../img/foto3.jpg) ;   
-}
+    .access.img3 {
+        background: url(../img/foto3.jpg);
+    }
 
 
 .content {
-    
-   background:  rgba(34, 43, 52, 0.5);
-   width: 100%;
+    background: rgba(34, 43, 52, 0.5);
+    width: 100%;
     min-height: 264px;
 }
 
-  .access .content > div {
-        display: block;
+.access .content > div {
+    display: block;
+    position: absolute;
+    text-decoration: none;
+    top: -50px;
+    width: 100%;
+}
+
+    .access .content > div span:first-child::before {
+        left: -19px;
+    }
+
+    .access .content > div span:first-child::before, .access > div span:first-child::after {
+        background: #FFFFFF none repeat scroll 0 0;
+        content: "";
+        height: 5px;
         position: absolute;
-        text-decoration: none;
-        top: -50px;
-        width: 100%;
+        top: 54px;
     }
 
-        .access .content > div span:first-child::before {
-            left: -19px;
-        }
-
-        .access  .content > div span:first-child::before, .access > div span:first-child::after {
-            background: #FFFFFF none repeat scroll 0 0;
-            content: "";
-            height: 5px;
-            position: absolute;
-            top: 54px;
-        }
-
-        .access .content > div span:first-child::after {
-            right: -19px;
-        }
-
-    .access .content:nth-child(odd) > div span:first-child, .access .content:nth-child(even) > div span:first-child {
-        border: 1px solid #fff;
-        box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
-        background: #fff;
-        color: #21A4D7;
-        border-radius: 50%;
-        width: 85px;
-        height: 85px;
+    .access .content > div span:first-child::after {
+        right: -19px;
     }
 
-    .access .content > div span:first-child {
-        background: #eeeff1 none repeat scroll 0 0;
-        margin: 0 auto;
-        position: relative;
-        width: 112px;
-    }
+.access .content:nth-child(odd) > div span:first-child, .access .content:nth-child(even) > div span:first-child {
+    border: 1px solid #fff;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
+    background: #fff;
+    color: #21A4D7;
+    border-radius: 50%;
+    width: 85px;
+    height: 85px;
+}
 
-    .access .content span {
-        display: block;
-        font-size: 16px;
-        line-height: 23px;
-        text-align: center;
-    }
+.access .content > div span:first-child {
+    background: #eeeff1 none repeat scroll 0 0;
+    margin: 0 auto;
+    position: relative;
+    width: 112px;
+}
 
-    .access .content > div span:first-child i {
-        display: block;
-        font-size: 45px;
-        padding: 40px 12px;
-    }
+.access .content span {
+    display: block;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+}
 
-    .access .content > div span:last-child {
-        color: #E0E0E0;
-        display: block;
-        font-size: 20px;
-        line-height: 28px;
-        padding: 16px 24px;
-        text-align: center;
-    }
+.access .content > div span:first-child i {
+    display: block;
+    font-size: 45px;
+    padding: 40px 12px;
+}
 
-    .access .content span.description {
-        padding: 140px 10px 20px;
-        color: #fff;
-        font-size: 9pt;
-         text-align: justify;
-    }
+.access .content > div span:last-child {
+    color: #E0E0E0;
+    display: block;
+    font-size: 20px;
+    line-height: 28px;
+    padding: 16px 24px;
+    text-align: center;
+}
 
-    .access .content > a {
-        display: block;
-        position: absolute;
-        text-decoration: none;
-        width: 100%;
-        bottom: 0;
-    }
+.access .content span.description {
+    padding: 140px 10px 20px;
+    color: #fff;
+    font-size: 9pt;
+    text-align: justify;
+}
 
-    .access .content:nth-child(odd) > a span:first-child,
-    .access .content:nth-child(even) > a span:first-child {
-        box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
-        background: #fff;
-        color: #424242;
-        width: 30px;
-        height: 25px;
-        float: right;
-        padding-top: 5px;
-    }
+.access .content > a {
+    display: block;
+    position: absolute;
+    text-decoration: none;
+    width: 100%;
+    bottom: 0;
+}
 
-    .access .content > a span:nth-child(2) {
-        visibility: hidden;
-        display: inline-block !important;
-    }
+.access .content:nth-child(odd) > a span:first-child,
+.access .content:nth-child(even) > a span:first-child {
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
+    background: #fff;
+    color: #424242;
+    width: 30px;
+    height: 25px;
+    float: right;
+    padding-top: 5px;
+}
 
-    .access .content > a span:nth-child(1) {
-        font-size: 1.5em;
-    }
+.access .content > a span:nth-child(2) {
+    visibility: hidden;
+    display: inline-block !important;
+}
 
-    .access .content > a span:first-child:hover > span {
-        visibility: visible;
-        line-height: 5px;
-    }
+.access .content > a span:nth-child(1) {
+    font-size: 1.5em;
+}
 
-    .access .content > a span:first-child:hover > i {
-        visibility: hidden;
-    }
+.access .content > a span:first-child:hover > span {
+    visibility: visible;
+    line-height: 5px;
+}
 
-    .access .content> a span:first-child:hover {
-        color: #CE2B06;
-        width: 60%;
-        height: 30px;
-    }
+.access .content > a span:first-child:hover > i {
+    visibility: hidden;
+}
+
+.access .content > a span:first-child:hover {
+    color: #CE2B06;
+    width: 60%;
+    height: 30px;
+}
 
 .banners {
     margin: 0 auto;
