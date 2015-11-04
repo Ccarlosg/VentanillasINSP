@@ -1,4 +1,5 @@
 
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
 body {
     height: 100%;
     /* The html and body elements cannot have any padding or margin. */
@@ -105,6 +106,10 @@ header .barra {
         .lenguage .ingles, .lenguage .espanol {
             min-width: 40px;
         }
+        
+          .welcome h2 { 
+         width: 90% !important; 
+    }
 }
 
 
@@ -163,6 +168,18 @@ header .barra {
         .banners a {
             margin: 15px 0 !important;
         }
+        
+          .welcome h2 { 
+         width: 60% !important; 
+    }
+
+
+.box-note > div:first-child{ 
+      margin-left:0 !important;
+      width: 37% !important;
+      
+}
+
 }
 
 @media (min-width: 768px) {
@@ -174,11 +191,12 @@ header .barra {
 
 .content-mosaic {
     width: 100%;
-    min-height: 150px;
+    min-height: 180px;
+    position: relative;
 }
 
 .box-note {
-    height: 150px;
+    min-height: 180px;
 }
 
 .gris {
@@ -205,31 +223,67 @@ header .barra {
     height: 100%;
 }
 
-.box-note .note {
-    width: 60%;
-    float: right;
-    height: 100%;
-}
+
 
 .box-note h2 {
     font-size: 1.5em !important;
     color: #E6E6E6;
 }
 
-.box-note .note p {
+.box-note > div:first-child{
+     float: left;
+      min-height: 180px;
+      width: 27%;
+      margin-left:10%;
+}
+.box-note .note > a   {
+   text-decoration: none;
+}
+
+.box-note .note > a p:nth-child(1) {
     font-size: 12px;
     color: #fff;
     font-weight: bold;
 }
 
-.box-note > div:first-child{
-     float: left;
-      min-height: 150px;
-      width: 27%;
-      margin-left:10%;
-      
+.box-note .note > a span:nth-child(2) {
+    font-size: 12px;
+    color: #fff;
+    font-weight: bold;
+    border: 2px  solid #fff;
+    padding: 5px;  
+    position: absolute;
+    display: block;
+    bottom: 15px;
+    margin-left: 13%;
+    
 }
-
+ .eslogan{  
+     bottom: 35%;
+     position: absolute;
+      margin: 0 auto;
+      left: 30%;
+      text-align: center;
+      width: 35%;
+      font-family: 'Merriweather', serif !important;
+      color: #fff;
+     
+ }
+ 
+  .eslogan > span:nth-child(1){
+      font-size: 1.7em; 
+      display: table;
+       margin: 0 auto;
+       font-style:  italic;
+  }
+ 
+   .eslogan> span:nth-child(2){
+      font-size: 1em; 
+       border-bottom:  1px solid #CA4526;
+           display: table;
+            margin: 0 auto;
+  }
+ 
 .imgIS{
      background: url(../img/familia.png) no-repeat;
 }
@@ -255,13 +309,20 @@ header .barra {
     .welcome h2 {
         color: #21A4D7;
         text-align: center;
-        margin-bottom: 35px;
-        margin-top: 35px;
+         width: 30%;
+        margin: 35px auto;
+        font-style: italic;
     }
 
-    .welcome p {
+    .welcome > p:nth-child(3) {
         text-align: justify;
         font-size: 1.3em;
+        padding: 15px;
+    }
+    
+     .welcome > p:nth-child(4) {
+        text-align: center;
+        font-size: 1.2em;
         padding: 15px;
     }
 
