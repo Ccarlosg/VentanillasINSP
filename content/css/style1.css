@@ -70,12 +70,11 @@
     text-transform:  uppercase;
  }
  
-  .content-listaenlaces > p.subtitulolista
+  .content-lista > p.subtitulolista
  {
    text-align: justify;
    font-size: 16px;
-    font-style: italic;
-    text-transform:  capitalize;
+    font-style: italic; 
     padding-left:  5px;
   
  }
@@ -89,11 +88,41 @@
  
 }
 
-
-.video {
-  width: 100%;
+ .content-lista > p.titulolista
+ {
+   text-align: justify;
+   font-size: 18px;
+    font-weight: bold;
+   padding-top: 30px;
+   padding-bottom: 5px;
+ }
+ 
+  .content-lista > p.subtitulolista
+ {
+   text-align: justify;
+   font-size: 16px;
+    font-style: italic;
+    padding-left:  5px;
+  
+ }
+ 
+  .lilista li {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    padding: 8px 0;
+    text-align: justify;
+ 
 }
 
-.video > iframe{
-   margin: 0 auto;
+.content-videos {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.content-videos > div.video  {
+   margin: 5px auto;
+   width: 420px;
+   height: 315px; 
 }
