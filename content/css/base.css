@@ -1,11 +1,11 @@
-body {
+html, body {
     height: 100%; 
 }
 .wrapper {
     min-height: 100%;
     height: auto !important;
     height: 100%;
-    margin: 0 auto -4em;
+    margin: 0 auto -186px;
     max-width: 1980px;
 }
 
