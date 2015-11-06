@@ -149,6 +149,11 @@
     text-transform:  uppercase;
  }
  
+ .content-lista {
+   min-height: 200px;
+     
+ }
+ 
   .content-lista > p.subtitulolista
  {
    text-align: justify;
