@@ -20,7 +20,7 @@
   font-variant: normal !important;
   text-transform: none !important;
   speak: none;
-  line-height: 0;
+  line-height: 0px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -76,4 +76,34 @@
 }
 .icon-website:before {
   content: "m";
+}
+.icon-ic-bookmark-black-48px:before {
+  content: "n";
+}
+.icon-ic-announcement-black-48px:before {
+  content: "o";
+}
+.icon-ic-arrow-back-black-48px:before {
+  content: "p";
+}
+.icon-ic-arrow-forward-black-24px:before {
+  content: "q";
+}
+.icon-ic-chat-black-48px:before {
+  content: "r";
+}
+.icon-ic-folder-black-48px:before {
+  content: "s";
+}
+.icon-ic-local-post-office-black-48px:before {
+  content: "t";
+}
+.icon-ic-person-black-24px:before {
+  content: "u";
+}
+.icon-ic-radio-button-checked-black-24px:before {
+  content: "v";
+}
+.icon-ic-radio-button-unchecked-black-24px:before {
+  content: "w";
 }
