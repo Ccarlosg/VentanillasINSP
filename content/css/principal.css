@@ -5,25 +5,42 @@
 
 
 
- 
- 
- @media (min-width:768px ) and (max-width: 1300px) {
-     .content-mosaic {
-         min-height: 230px !important;
-     }
-     
-       .box-note .note > a span:nth-child(2){
-      margin-left: 8% !important;    
-     }
-     .box-note > div:first-child
-     {
-          margin-left: 0 !important;
-     }
-     
 
- }
- 
-@media (max-width: 767px) { 
+
+@media (min-width:768px ) and (max-width: 1300px) {
+    .content-mosaic {
+        min-height: 230px !important;
+    }
+
+    .box-note .note > a span:nth-child(2) {
+        margin-left: 8% !important;
+    }
+
+    .box-note > div:first-child {
+        margin-left: 0 !important;
+    }
+
+    .imgIS {
+        background: url(../img/familia5.png) no-repeat !important;
+        
+    }
+
+    .imgMex {
+         background: url(../img/mapa_mexico5.png) no-repeat !important;
+      
+    }
+
+    .imgEU {
+         background: url(../img/mapa_estadosunidos5.png) no-repeat !important;
+    }
+
+    .imgEU, .imgMex, .imgIS {
+        height: 230px !important;
+            width: 165px !important;
+    }
+}
+
+@media (max-width: 767px) {
     .box-note {
         display: block;
         width: 100%;
@@ -46,7 +63,7 @@
     .welcome h2 {
         width: 60% !important;
     }
- 
+
     .box-note > div:first-child {
         margin-left: 0 !important;
         width: 37% !important;
@@ -58,11 +75,11 @@
         width: 33.33%;
         float: left;
     }
-    
-    .shortcut > div:first-child {
-     margin-left: 10%;
-}
 
+    .access {
+        margin-left: 3.5%;
+        margin-right: 0 !important;
+    }
 }
 
 .content-mosaic {
@@ -72,7 +89,7 @@
 }
 
 .box-note {
-    min-height:   inherit;
+    min-height: inherit;
 }
 
 .gris {
@@ -140,17 +157,23 @@
 }
 
 .imgMex {
-    background: url(../img/mapa_estadosunidos.png) no-repeat;
-    width: 100%;
-    height: 100%;
+      background: url(../img/mapa_mexico.png) no-repeat;
+    
 }
 
 .imgEU {
-    background: url(../img/mapa_mexico.png) no-repeat;
+  background: url(../img/mapa_estadosunidos.png) no-repeat;
+}
+
+
+.imgEU, .imgMex, .imgIS {
+    width: 172px;
+    height: 179px;
+    display: block;
 }
 
 .content2 {
-    width: 100%; 
+    width: 100%;
     height: 100%;
 }
 
@@ -166,8 +189,8 @@
         text-align: center;
         width: 35%;
         margin: 35px auto;
-        font-style: italic; 
-         font-family: 'Merriweather', serif !important;
+        font-style: italic;
+        font-family: 'Merriweather', serif !important;
     }
 
     .welcome > p:nth-child(3) {
@@ -190,7 +213,7 @@
     }
 
 .shortcut {
-    max-width: 1220px;
+    max-width: 1020px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 33px;
@@ -358,5 +381,3 @@
         .banners a img {
             width: 100%;
         }
-
-
