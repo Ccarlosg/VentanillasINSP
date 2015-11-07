@@ -8,9 +8,18 @@
  
  
  @media (min-width:768px ) and (max-width: 1300px) {
-     
-         
+     .content-mosaic {
+         min-height: 230px !important;
      }
+     
+       .box-note .note > a span:nth-child(2){
+      margin-left: 8% !important;    
+     }
+     .box-note > div:first-child
+     {
+          margin-left: 0 !important;
+     }
+ }
  
 @media (max-width: 767px) { 
     .box-note {
@@ -21,6 +30,7 @@
     .access {
         margin-top: 60px !important;
         margin-left: 15%;
+        max-width: 70% !important;
     }
 
     .banners {
@@ -55,7 +65,7 @@
 }
 
 .box-note {
-    min-height: 180px;
+    min-height:   inherit;
 }
 
 .gris {
@@ -133,8 +143,7 @@
 }
 
 .content2 {
-    width: 100%;
-    min-height: 1050px;
+    width: 100%; 
     height: 100%;
 }
 
@@ -190,7 +199,7 @@
     position: relative;
     vertical-align: top;
     min-width: 250px;
-    max-width: 350px;
+    max-width: 290px;
 }
 
     .access.img1 {
@@ -301,6 +310,7 @@
     padding-top: 5px;
 }
 
+
 .access .content > a span:nth-child(2) {
     visibility: hidden;
     display: inline-block !important;
@@ -328,7 +338,8 @@
 .banners {
     margin: 0 auto;
     width: 600px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
+    padding-top: 10px;
 }
 
     .banners a {

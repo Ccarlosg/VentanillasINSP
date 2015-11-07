@@ -15,7 +15,7 @@
   min-height: 785px;
 }
 
-.content-int > h1:first-child{
+.content-int > h1:first-child, .h1TitPage{
       color: #21A4D7;  
         font-style: italic; 
          font-family: 'Merriweather', serif !important;
@@ -210,3 +210,5 @@
    width: 420px;
    height: 315px; 
 }
+
+ 

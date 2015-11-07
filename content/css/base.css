@@ -148,7 +148,22 @@ header .barra {
     }
 
     .footerAbout {
-        width: 350px !important;
+       min-width: 100% ;
+        height: auto !important;
+        max-height: 153px;
+    }
+    
+      .footerAbout > p {
+      text-align: center !important;
+    }
+    
+    .footerContact {
+          min-width: 100% ;    
+    }
+    
+    .footerContact table {
+        margin: 30px auto 10px auto !important;
+        
     }
 }
 
