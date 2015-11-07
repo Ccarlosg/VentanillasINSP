@@ -19,6 +19,8 @@
      {
           margin-left: 0 !important;
      }
+     
+
  }
  
 @media (max-width: 767px) { 
@@ -56,6 +58,11 @@
         width: 33.33%;
         float: left;
     }
+    
+    .shortcut > div:first-child {
+     margin-left: 10%;
+}
+
 }
 
 .content-mosaic {
@@ -189,6 +196,7 @@
     margin-top: 33px;
     min-height: 400px;
 }
+
 
 .access {
     box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
