@@ -49,9 +49,21 @@
     .access {
         margin-top: 60px !important;
         margin-left: 15%;
-        max-width: 70% !important;
+        max-width: 70% !important; 
     }
 
+    .access.img1 {
+        background: url(../img/foto1xl.jpg) !important;
+    }
+
+    .access.img2 {
+        background: url(../img/foto2xl.jpg) !important;
+    }
+
+    .access.img3 {
+        background: url(../img/foto3xl.jpg) !important;
+    }
+    
     .banners {
         width: 40% !important;
     }
@@ -68,6 +80,10 @@
         margin-left: 0 !important;
         width: 37% !important;
     }
+    
+        #containerp {
+        padding-bottom: 300px !important;
+    }
 }
 
 @media (min-width: 768px) {
@@ -80,6 +96,10 @@
         margin-left: 3.5%;
         margin-right: 0 !important;
     }
+}
+
+#containerp{
+        padding-bottom: 182px;
 }
 
 .content-mosaic {

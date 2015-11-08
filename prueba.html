@@ -1,96 +1,283 @@
 <!DOCTYPE html>
 
-
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es">
 
 <head>
-	<title>Ventanillas
-	</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="content/css/bootstrap.min.css" />
-	<link rel="stylesheet" href="content/css/bootstrap-custom.css" />
-	<link rel="stylesheet" href="content/css/base.css" />
-	<link rel="stylesheet" href="content/css/style1.css" />
-	<link rel="stylesheet" href="content/css/ventanillasfont.css" />
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Ventanillas
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="content/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="content/css/bootstrap-custom.css" />
+    <link rel="stylesheet" href="content/css/principal.css" />
+    <link rel="stylesheet" href="content/css/base.css" />
+    <link rel="stylesheet" href="content/css/ventanillasfont.css" />
+    <link rel="stylesheet" href="content/css/slider.css" />
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/ie10-viewport-bug-workaround.js"></script>
+    <script type="text/javascript" src="js/jssor.slider.mini.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
 </head>
 
 <body>
-	<div class="wrapper">
-		<div style="heigth:20px; background:#000">
+    <div class="wrapper">
+        <header>
+            <div class="navbar-fixed-top">
+                <div id="barrasup" class="container-fluid barra">
 
-		</div>
-		<div>
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus aliquid, aliquam laborum sequi voluptatum optio veniam
-			odit soluta assumenda eius quo at minus odio ipsam, magnam enim incidunt omnis, commodi!
-		</div>
-	</div>
+                    <div id="search_lenguage">
+                        <div class="search">
+                            <input type="text" class="form-control searchbox" placeholder="Buscar en el sitio..." />
+                            <intput type="button" class="btn">
+                                <i class="icon" data-icon="a"></i>
+                            </intput>
+                        </div>
+                        <ul class="lenguage container">
+                            <li>Idioma</li>
+                            <li class="ingles">ING</li>
+                            <li class="espanol">ESP</li>
 
-	<footer class="footer">
-		<div class="footer-content">
-			<div class="footerPeople">
-				<div>
-				</div>
-			</div>
-			<div class="footerAbout">
-				<h3>Sobre nosotros</h3>
-				<p>
-					This template is a micro niche for business categories, namely laundry business.
-				</p>
-			</div>
-			<div class="footerContact">
-				<h3>Mantenerse en contacto</h3>
-				<table>
-					<tbody>
-						<tr>
-							<th class="thizq">
-								<i class="icon " data-icon="k"></i> telefono:
-							</th>
-							<th>
-								+62 7000 4400
-							</th>
-						</tr>
-						<tr>
-							<th class="thizq">
-							</th>
-							<th>
-								+62 7000 4400
-							</th>
-						</tr>
-						<tr>
+                        </ul>
+                    </div>
+                </div>
 
-							<th class="thizq">
-								<i class="icon " data-icon="d"></i> E-mail
-							</th>
-							<th>
-								support@launddryes.com
-							</th>
-						</tr>
-						<tr>
-							<th class="thizq">
-								<i class="icon " data-icon="m"></i> Website:
-							</th>
-							<th>
-								<a target="_blank">http://wwww.ventanillas.org/index.php/es/</a>
-							</th>
-						</tr>
-						<tr>
-							<th class="thizq">
-								<i class="icon " data-icon="b"></i> Dirección:
-							</th>
-							<th>
-								80 sukarajin street Pekanbaru 40021 Riau
-							</th>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-			
-		</div>
+                <nav id="ventanillas-bootstrap-menu" class="navbar navbar-default navbar-static-top" role="navigation">
+                    <div class="navcontainer">
 
-<div class="footer-copyright">
-				<span> Ventanillas de salud - Todos los derechos reservados © 2015</span>
-			</div>
-	</footer>
+                        <div class="navbar-header">
+                            <a class="navbar-brand" href="#">
+                                <img class="visible-xs" src="content/img/logo_vs_menu_min.png" alt="">
+                                <img class="hidden-xs" src="content/img/logo_vs_menu.png" alt="">
+
+                            </a>
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="collapse navbar-collapse navbar-menubuilder">
+                            <ul class="nav navbar-nav">
+                                <li><a href="s">Inicio</a>
+                                </li>
+                                <li><a href="s">Ventanillas de salud</a>
+                                </li>
+                                <li><a href="s">Información de salud</a>
+                                </li>
+                                <li><a href="s">Noticias</a>
+                                </li>
+                                <li><a href="c">Contacto</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <div id="container">
+            <p>
+
+                Las enfermedades crónico-degenerativas afligen a la zona fronteriza por lo que la Comisión busca llevar a cabo capacitaciones
+                de grupos de trabajo multidisciplinarios para definir los mecanismos necesarios para vincular a las actividades
+                de la Comisión con los programas implementados por las autoridades de salud a nivel estatal o local. También
+                realizarán estrategias de promoción de la salud y de estilos de vida saludable con una perspectiva de género,
+                así como buscar aumentar el conocimiento de las fuentes de datos y de los procedimientos de recolección de
+                datos a lo largo de la Frontera México-Estados Unidos. Proveer recursos humanos y materiales y educación
+                y capacitación continua en salud pública para el personal de salud es importante para mejorar la salud de
+                la población fronteriza. En su indispensable labor de unir fuerzas binacionales la Comisión promueve sesiones
+                de capacitación en ambos países para adoptar y adaptar las buenas prácticas y modelos de intervención prometedores,
+                tales como Pasos Adelante; Tu corazón, tu Vida; y Meta Salud.
+
+            </p>
+            <p>
+
+                Las enfermedades crónico-degenerativas afligen a la zona fronteriza por lo que la Comisión busca llevar a cabo capacitaciones
+                de grupos de trabajo multidisciplinarios para definir los mecanismos necesarios para vincular a las actividades
+                de la Comisión con los programas implementados por las autoridades de salud a nivel estatal o local. También
+                realizarán estrategias de promoción de la salud y de estilos de vida saludable con una perspectiva de género,
+                así como buscar aumentar el conocimiento de las fuentes de datos y de los procedimientos de recolección de
+                datos a lo largo de la Frontera México-Estados Unidos. Proveer recursos humanos y materiales y educación
+                y capacitación continua en salud pública para el personal de salud es importante para mejorar la salud de
+                la población fronteriza. En su indispensable labor de unir fuerzas binacionales la Comisión promueve sesiones
+                de capacitación en ambos países para adoptar y adaptar las buenas prácticas y modelos de intervención prometedores,
+                tales como Pasos Adelante; Tu corazón, tu Vida; y Meta Salud.
+
+            </p>
+            <p>
+
+                Las enfermedades crónico-degenerativas afligen a la zona fronteriza por lo que la Comisión busca llevar a cabo capacitaciones
+                de grupos de trabajo multidisciplinarios para definir los mecanismos necesarios para vincular a las actividades
+                de la Comisión con los programas implementados por las autoridades de salud a nivel estatal o local. También
+                realizarán estrategias de promoción de la salud y de estilos de vida saludable con una perspectiva de género,
+                así como buscar aumentar el conocimiento de las fuentes de datos y de los procedimientos de recolección de
+                datos a lo largo de la Frontera México-Estados Unidos. Proveer recursos humanos y materiales y educación
+                y capacitación continua en salud pública para el personal de salud es importante para mejorar la salud de
+                la población fronteriza. En su indispensable labor de unir fuerzas binacionales la Comisión promueve sesiones
+                de capacitación en ambos países para adoptar y adaptar las buenas prácticas y modelos de intervención prometedores,
+                tales como Pasos Adelante; Tu corazón, tu Vida; y Meta Salud.
+
+            </p>
+            <p>
+
+                Las enfermedades crónico-degenerativas afligen a la zona fronteriza por lo que la Comisión busca llevar a cabo capacitaciones
+                de grupos de trabajo multidisciplinarios para definir los mecanismos necesarios para vincular a las actividades
+                de la Comisión con los programas implementados por las autoridades de salud a nivel estatal o local. También
+                realizarán estrategias de promoción de la salud y de estilos de vida saludable con una perspectiva de género,
+                así como buscar aumentar el conocimiento de las fuentes de datos y de los procedimientos de recolección de
+                datos a lo largo de la Frontera México-Estados Unidos. Proveer recursos humanos y materiales y educación
+                y capacitación continua en salud pública para el personal de salud es importante para mejorar la salud de
+                la población fronteriza. En su indispensable labor de unir fuerzas binacionales la Comisión promueve sesiones
+                de capacitación en ambos países para adoptar y adaptar las buenas prácticas y modelos de intervención prometedores,
+                tales como Pasos Adelante; Tu corazón, tu Vida; y Meta Salud.
+
+            </p>
+            <p>
+
+                Las enfermedades crónico-degenerativas afligen a la zona fronteriza por lo que la Comisión busca llevar a cabo capacitaciones
+                de grupos de trabajo multidisciplinarios para definir los mecanismos necesarios para vincular a las actividades
+                de la Comisión con los programas implementados por las autoridades de salud a nivel estatal o local. También
+                realizarán estrategias de promoción de la salud y de estilos de vida saludable con una perspectiva de género,
+                así como buscar aumentar el conocimiento de las fuentes de datos y de los procedimientos de recolección de
+                datos a lo largo de la Frontera México-Estados Unidos. Proveer recursos humanos y materiales y educación
+                y capacitación continua en salud pública para el personal de salud es importante para mejorar la salud de
+                la población fronteriza. En su indispensable labor de unir fuerzas binacionales la Comisión promueve sesiones
+                de capacitación en ambos países para adoptar y adaptar las buenas prácticas y modelos de intervención prometedores,
+                tales como Pasos Adelante; Tu corazón, tu Vida; y Meta Salud.
+
+            </p>
+            <p>
+
+                Las enfermedades crónico-degenerativas afligen a la zona fronteriza por lo que la Comisión busca llevar a cabo capacitaciones
+                de grupos de trabajo multidisciplinarios para definir los mecanismos necesarios para vincular a las actividades
+                de la Comisión con los programas implementados por las autoridades de salud a nivel estatal o local. También
+                realizarán estrategias de promoción de la salud y de estilos de vida saludable con una perspectiva de género,
+                así como buscar aumentar el conocimiento de las fuentes de datos y de los procedimientos de recolección de
+                datos a lo largo de la Frontera México-Estados Unidos. Proveer recursos humanos y materiales y educación
+                y capacitación continua en salud pública para el personal de salud es importante para mejorar la salud de
+                la población fronteriza. En su indispensable labor de unir fuerzas binacionales la Comisión promueve sesiones
+                de capacitación en ambos países para adoptar y adaptar las buenas prácticas y modelos de intervención prometedores,
+                tales como Pasos Adelante; Tu corazón, tu Vida; y Meta Salud.
+
+            </p>
+            <p>
+
+                Las enfermedades crónico-degenerativas afligen a la zona fronteriza por lo que la Comisión busca llevar a cabo capacitaciones
+                de grupos de trabajo multidisciplinarios para definir los mecanismos necesarios para vincular a las actividades
+                de la Comisión con los programas implementados por las autoridades de salud a nivel estatal o local. También
+                realizarán estrategias de promoción de la salud y de estilos de vida saludable con una perspectiva de género,
+                así como buscar aumentar el conocimiento de las fuentes de datos y de los procedimientos de recolección de
+                datos a lo largo de la Frontera México-Estados Unidos. Proveer recursos humanos y materiales y educación
+                y capacitación continua en salud pública para el personal de salud es importante para mejorar la salud de
+                la población fronteriza. En su indispensable labor de unir fuerzas binacionales la Comisión promueve sesiones
+                de capacitación en ambos países para adoptar y adaptar las buenas prácticas y modelos de intervención prometedores,
+                tales como Pasos Adelante; Tu corazón, tu Vida; y Meta Salud.
+
+            </p>
+            <p>
+
+                Las enfermedades crónico-degenerativas afligen a la zona fronteriza por lo que la Comisión busca llevar a cabo capacitaciones
+                de grupos de trabajo multidisciplinarios para definir los mecanismos necesarios para vincular a las actividades
+                de la Comisión con los programas implementados por las autoridades de salud a nivel estatal o local. También
+                realizarán estrategias de promoción de la salud y de estilos de vida saludable con una perspectiva de género,
+                así como buscar aumentar el conocimiento de las fuentes de datos y de los procedimientos de recolección de
+                datos a lo largo de la Frontera México-Estados Unidos. Proveer recursos humanos y materiales y educación
+                y capacitación continua en salud pública para el personal de salud es importante para mejorar la salud de
+                la población fronteriza. En su indispensable labor de unir fuerzas binacionales la Comisión promueve sesiones
+                de capacitación en ambos países para adoptar y adaptar las buenas prácticas y modelos de intervención prometedores,
+                tales como Pasos Adelante; Tu corazón, tu Vida; y Meta Salud.
+
+            </p>
+            <p>
+
+                Las enfermedades crónico-degenerativas afligen a la zona fronteriza por lo que la Comisión busca llevar a cabo capacitaciones
+                de grupos de trabajo multidisciplinarios para definir los mecanismos necesarios para vincular a las actividades
+                de la Comisión con los programas implementados por las autoridades de salud a nivel estatal o local. También
+                realizarán estrategias de promoción de la salud y de estilos de vida saludable con una perspectiva de género,
+                así como buscar aumentar el conocimiento de las fuentes de datos y de los procedimientos de recolección de
+                datos a lo largo de la Frontera México-Estados Unidos. Proveer recursos humanos y materiales y educación
+                y capacitación continua en salud pública para el personal de salud es importante para mejorar la salud de
+                la población fronteriza. En su indispensable labor de unir fuerzas binacionales la Comisión promueve sesiones
+                de capacitación en ambos países para adoptar y adaptar las buenas prácticas y modelos de intervención prometedores,
+                tales como Pasos Adelante; Tu corazón, tu Vida; y Meta Salud.
+
+            </p>
+        </div>
+        <!--Fin de container-->
+
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footerPeople hidden-xs">
+
+                </div>
+                <!--Fin de footerPeople -->
+                <div class="footerAbout">
+                    <h3>Sobre nosotros</h3>
+                    <p>
+                        This template is a micro niche for business categories, namely laundry business.
+                    </p>
+                </div>
+                <!--Fin de footerAbout -->
+                <div class="footerContact">
+                    <h3>Mantenerse en contacto</h3>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <th class="thizq">
+                                    <i class="icon " data-icon="k"></i> telefono:
+                                </th>
+                                <th>
+                                    +62 7000 4400
+                                </th>
+                            </tr>
+                            <tr>
+                                <th class="thizq">
+                                </th>
+                                <th>
+                                    +62 7000 4400
+                                </th>
+                            </tr>
+                            <tr>
+
+                                <th class="thizq">
+                                    <i class="icon " data-icon="d"></i> E-mail
+                                </th>
+                                <th>
+                                    support@launddryes.com
+                                </th>
+                            </tr>
+                            <tr>
+                                <th class="thizq">
+                                    <i class="icon " data-icon="m"></i> Website:
+                                </th>
+                                <th>
+                                    <a target="_blank">http://wwww.ventanillas.org/index.php/es/</a>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th class="thizq">
+                                    <i class="icon " data-icon="b"></i> Dirección:
+                                </th>
+                                <th>
+                                    80 sukarajin street Pekanbaru 40021 Riau
+                                </th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!--Fin de footerContact -->
+
+            </div>
+            <!--Fin de footer-content-->
+            <div class="footer-copyright">
+                <span> Ventanillas de salud - Todos los derechos reservados © 2015</span>
+            </div>
+
+        </footer>
+
+    </div>
+    <!--Fin de Wrapper-->
+
+
+</body>
+
+</html>
