@@ -9,21 +9,42 @@
    margin-bottom:25px;
 }
 
-.content-int > h1:first-child, .h1TitPage{
+
+.content-int > h1:first-child, .h1TitPage, .content-med > h1:first-child  {
       color: #21A4D7;  
         font-style: italic; 
          font-family: 'Merriweather', serif !important;
 }
 
-.content-int, .content-right {
+.content-int, .content-right, .content-med {
   display:  inline-block;
   position: relative;
   vertical-align: top;
 }
 
+
+ 
+.content-med{
+ padding: 	30px 10px 10px 10px;
+  width: 48%;
+  min-height: 785px;
+   font-size: 16px;
+   margin-bottom:25px;
+}
+
+
+.conten.content-medt-int > h1:first-child, .h1TitPage{
+      color: #21A4D7;  
+        font-style: italic; 
+         font-family: 'Merriweather', serif !important;
+}
+
+
 .content-right {
  width: 19%; 
 }
+
+
 
 .content-right::before, .content-right::after{
   content: "";
@@ -58,7 +79,7 @@
 }
 
 .nav-rightlinks li::before{
-   content: "v"; 
+   content: "q"; 
       font-family: "ventanillasiconfont";
     font-size: 18px;
     left: 0;
@@ -218,4 +239,9 @@
 legend > span.req
 {
   color: #DF0101;
+}
+
+.img-center{
+  
+  margin:  auto;
 }
