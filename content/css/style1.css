@@ -36,7 +36,7 @@
     z-index: -1;
 }
 
-.content-right .content-links {
+.content-right .content-links, .content-links {
  
  bottom:0;
  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
@@ -133,7 +133,7 @@
       
 }
 
- .content-listaenlaces > p.titulolista
+ .content-listaenlaces > p.titulolista,  p.titulolista
  {
    text-align: justify;
    font-size: 18px;
@@ -148,7 +148,7 @@
      
  }
  
-  .content-lista > p.subtitulolista
+  .content-lista > p.subtitulolista, p.subtitulolista
  {
    text-align: justify;
    font-size: 16px;
@@ -166,7 +166,7 @@
  
 }
 
- .content-lista > p.titulolista
+ .content-lista > p.titulolista, p.titulolista
  {
    text-align: justify;
    font-size: 18px;
@@ -175,7 +175,7 @@
    padding-bottom: 5px;
  }
  
-  .content-lista > p.subtitulolista
+  .content-lista > p.subtitulolista, p.subtitulolista
  {
    text-align: justify;
    font-size: 16px;
@@ -184,15 +184,6 @@
   
  }
  
-  .lilista li {
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 24px;
-    padding: 8px 0;
-    text-align: justify;
- 
-}
-
 .content-videos {
   width: 100%;
   padding-top: 10px;
