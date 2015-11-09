@@ -197,3 +197,25 @@
 }
 
  
+
+.caja { 
+	margin: 5px;
+	padding: 5px; 
+  width: 100%;
+}
+ .cajaP { 
+	margin: 5px;
+	padding: 5px; 
+  width: 40%;
+}
+
+ .cajaM { 
+	margin: 5px;
+	padding: 5px; 
+  width: 70%;
+}
+
+legend > span.req
+{
+  color: #DF0101;
+}
