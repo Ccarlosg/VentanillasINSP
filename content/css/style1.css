@@ -12,9 +12,19 @@
 
 .content-int > h1:first-child, .h1TitPage, .content-med > h1:first-child  {
       color: #21A4D7;  
-        font-style: italic; 
+       font-weight: bold;
          font-family: 'Merriweather', serif !important;
+         border-bottom: 1px solid;
+         padding-bottom:6px;
 }
+
+.content-int > h1:first-child > span:first-child, .h1TitPage > span:first-child , .content-med > h1:first-child > span:first-child  {
+     
+              font-weight: 100;
+              font-size: 28px;
+              
+}
+
 
 .content-int, .content-right, .content-med {
   display:  inline-block;
@@ -59,8 +69,7 @@
 
 .content-right .content-links, .content-links {
  
- bottom:0;
- box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+ bottom:0; 
  left: 0;
  right:0;
 }
@@ -84,17 +93,17 @@
     font-size: 18px;
     left: 0;
     position: absolute;
-    top: 8px;
+    top: 6px;
     color: #282828;
 }
 
 .nav-rightlinks li:hover::before{
    
-    color: #21A4D7 !important;
+    color: #fff !important;
 }
 
 .nav-rightlinks li {
-    border-bottom: 1px solid #f2f2f2;
+    border-bottom: 1px solid #A7A6A6;
     border-left: 3px solid transparent;
     padding-left: 10px;
     position: relative;
@@ -104,8 +113,9 @@
     border-bottom: 0 none;
 }
 .nav-rightlinks li:hover {
-    background: #BDBDBD none repeat scroll 0 0;
-    border-left: 5px solid #21A4D7;
+    background: #21A4D7 none repeat scroll 0 0;
+    border-left: 3px solid #177194 ;
+  
 }
 
 .nav-rightlinks li a  {
@@ -114,6 +124,11 @@
     line-height: 20px;
     padding: 8px 10px;
 }
+.nav-rightlinks li a:hover  {
+   color: #fff;
+}
+
+
 
 .content-li-desc > ul li{
   
@@ -131,6 +146,21 @@
    text-align: justify;
  line-height:24px;
 }
+
+.content-int ul > li {
+    padding-left: 1.3em ;
+   list-style: outside none none;
+}
+ 
+
+.content-int ul > li:before { 
+  content: "q"; 
+      font-family: "ventanillasiconfont";
+    font-size: inherit;
+    left: 0; 
+    top: 6px;
+}
+
 
 .questions{
    padding-top: 15px;
@@ -244,4 +274,22 @@ legend > span.req
 .img-center{
   
   margin:  auto;
+}
+
+.img-left { 
+    float: left; 
+    margin-right: 12px;
+}
+
+
+.img-right {
+  
+    float: right;
+    margin-left: 12px;
+   
+}
+
+.img-center, .img-left, .img-right  {
+   border: 1px solid #9DBDC9;
+    
 }
