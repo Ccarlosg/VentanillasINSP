@@ -289,6 +289,24 @@ legend > span.req
    
 }
 
+.img-centersb{
+  
+  margin:  auto;
+}
+
+.img-leftsb { 
+    float: left; 
+    margin-right: 12px;
+}
+
+
+.img-rightsb {
+  
+    float: right;
+    margin-left: 12px;
+   
+}
+
 .img-center, .img-left, .img-right  {
    border: 1px solid #9DBDC9;
     
