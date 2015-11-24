@@ -88,13 +88,13 @@
 }
 
 .nav-rightlinks li::before{
-   content: "q"; 
+   content: "y"; 
       font-family: "ventanillasiconfont";
     font-size: 18px;
     left: 0;
     position: absolute;
     top: 6px;
-    color: #282828;
+    color: #4DB6DF;
 }
 
 .nav-rightlinks li:hover::before{
@@ -154,11 +154,13 @@
  
 
 .content-int ul > li:before { 
-  content: "q"; 
+  content: "x"; 
       font-family: "ventanillasiconfont";
     font-size: inherit;
     left: 0; 
     top: 6px;
+    margin: 3px;
+    color: #7D99AA;
 }
 
 
@@ -311,3 +313,58 @@ legend > span.req
    border: 1px solid #9DBDC9;
     
 }
+
+.enlaces{
+  display: table;
+}
+
+.enlaces > li {
+  display: block;
+  float: left; 
+}
+
+.imgx{
+    background: url("../img/abuso_drogas.jpg");
+    width:85px;
+    height: 88px;
+   content: " ";
+}
+.content-acceso{
+  width: 150px;
+  height: 200px;
+   float: left;
+}
+
+div.content-enlaces{
+ width: 100%  ;
+ min-height: 785px;
+}
+
+.content-acceso > a span:first-child i{
+   font-size: 34px;
+    padding: 15px 15px; 
+   background: #fff none repeat scroll 0 0;
+   
+    border:1px solid #DF3A01;
+    color : #DF3A01;
+    border-radius: 50%;
+    margin-left: 32px;
+}
+
+.content-acceso > a span:first-child i:hover{
+background: #DF3A01 none repeat scroll 0 0;
+ 
+    color : #fff;
+    
+}
+
+.content-acceso > a span:last-child {
+    display: block;
+    line-height: 28px;
+     padding-top: 15px;
+    text-align: center;
+    font-size: 14px;
+    color: #000;
+}
+
+ 

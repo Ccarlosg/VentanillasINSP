@@ -38,6 +38,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+
 .icon-lupa:before {
   content: "a";
 }
@@ -106,4 +107,73 @@
 }
 .icon-ic-radio-button-unchecked-black-24px:before {
   content: "w";
+}
+.icon-adicciones:before {
+  content: "z";
+}
+.icon-bullet-vs:before {
+  content: "x";
+}
+.icon-bullet-menu:before {
+  content: "y";
+}
+.icon-artritis:before {
+  content: "A";
+}
+.icon-asma:before {
+  content: "B";
+}
+.icon-salud-emocional:before {
+  content: "C";
+}
+.icon-planeacion-familiar:before {
+  content: "D";
+}
+.icon-obesidad:before {
+  content: "E";
+}
+.icon-salud-mujer:before {
+  content: "F";
+}
+.icon-tabaquismo:before {
+  content: "G";
+}
+.icon-tuberculosis:before {
+  content: "H";
+}
+.icon-ulcera:before {
+  content: "I";
+}
+.icon-vilencia:before {
+  content: "J";
+}
+.icon-nutricion:before {
+  content: "K";
+}
+.icon-influenza:before {
+  content: "L";
+}
+.icon-hipertension:before {
+  content: "M";
+}
+.icon-ets:before {
+  content: "N";
+}
+.icon-espalda:before {
+  content: "O";
+}
+.icon-diente:before {
+  content: "P";
+}
+.icon-diabetes:before {
+  content: "Q";
+}
+.icon-cardiaca:before {
+  content: "R";
+}
+.icon-cancer:before {
+  content: "S";
+}
+.icon-manitas:before {
+  content: "T";
 }
