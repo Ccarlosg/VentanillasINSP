@@ -39,6 +39,7 @@
 }
 
 
+
 .icon-lupa:before {
   content: "a";
 }
@@ -176,4 +177,10 @@
 }
 .icon-manitas:before {
   content: "T";
+}
+.icon-embarazo:before {
+  content: "U";
+}
+.icon-vision:before {
+  content: "V";
 }
